@@ -2,7 +2,7 @@
 --  See `:help vim.keymap.set()`
 
 -- custom return to file system
-vim.keymap.set('n', '<leader>pv', vim.cmd.EX)
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
