@@ -11,8 +11,6 @@ return {
         null_ls.builtins.code_actions.ruff,
       },
     }
-
     vim.keymap.set('n', '<leader>gf', vim.lsp.buf.format, {})
-    vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_actions, {})
   end,
 }
